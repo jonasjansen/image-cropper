@@ -1,7 +1,9 @@
-public class Main {
+import gui.Application;
+
+public class Main{
 
     public static void main(String[] args) {
-        // Ausgabe Hello World!
-        System.out.println("Hello World!");
+        Application app = new Application();
+        app.start();
     }
 }
